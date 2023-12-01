@@ -47,7 +47,7 @@ module controller(
     wire [10:0] x_loc;
     wire [10:0] y_loc;
     reg [2:0] x_counter, y_counter;
-    reg show_second_image;
+  
     
     // UART related wiring and regs
     reg flush, allow_next;
